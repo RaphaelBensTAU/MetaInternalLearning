@@ -8,7 +8,6 @@ import torch.optim as optim
 from modules import generators as generators
 from modules import discriminators as discriminators
 from datasets.dataset import MultipleImageDataset
-from modules.test import *
 from modules.utils import calc_gradient_penalty
 from torch import distributed as dist
 from torch.nn.parallel import DistributedDataParallel as DDP
