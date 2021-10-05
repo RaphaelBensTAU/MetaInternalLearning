@@ -1,0 +1,10 @@
+numpy
+opencv-python==4.5.1.48
+colorama==0.4.4
+tqdm==4.56.0
+imageio==2.9.0
+kornia==0.4.0
+tensorboard
+scikit-image
+tensorboard
+torchvision
