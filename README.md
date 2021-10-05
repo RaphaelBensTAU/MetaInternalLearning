@@ -13,7 +13,7 @@ pip install -r requirements.txt
 ## Training on a dataset
 
 1. Create a folder X containing the images. (see structure in data folder)
-2. Determine how many iterations Y to train by scale (depends on the size of the dataset, you may refer to the appendix for reference).
+2. Determine how many iterations Y to train by scale (depends mostly on the size of the dataset, you may refer to the appendix for reference).
 3. Run 
 ```
 python train.py --image-path X --batch-size 16 --visualize --niter Y --min-size 25 --checkname X_result --SAVE-MODEL --SAVE-IMGS
