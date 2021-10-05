@@ -32,7 +32,7 @@ python train.py --image-path data/places_50 --batch-size 16 --visualize --niter 
 
 LSUN-50
 ```
-python train.py --image-path data/lsun_50 --batch-size 16 --visualize --niter 5000   --checkname lsun_50_result --SAVE-MODEL --SAVE-IMGS
+python train.py --image-path data/lsun_50 --batch-size 16 --visualize --niter 5000  --checkname lsun_50_result --SAVE-MODEL --SAVE-IMGS --rec-weight 10
 ```
 
 Valley dataset can be downloaded here - http://places2.csail.mit.edu/download.html (256x256 small images) and can be divided into subsets as mentioned in the paper.
