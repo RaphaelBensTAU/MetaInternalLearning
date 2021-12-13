@@ -53,7 +53,3 @@ V5000 -
 ```
 python train_dataset_parallel.py --image-path data/V5000 --batch-size 16 --niter 150000 --rec-weight 50 --min-size 25 --checkname v5000_result --ar 1 --SAVE-MODEL 
 ```
-
-## Applications
-
-Coming soon!
