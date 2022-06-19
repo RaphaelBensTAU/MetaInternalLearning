@@ -46,7 +46,6 @@ class MultiHeadLinearProjection(nn.Module):
 
     def forward(self, features):
         out = []
-        # can be optimized by learning one large matrix and slicing appropriate areas instead of single standalone matrix projections. 
         for head in self.linears:
             out += [head(features)]
         return out
